@@ -2,7 +2,7 @@ from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 import config
 
-addbname = 'https://t.me/DJ_ALOK_ASSISTANT?startgroup=true'.format(Config.BOT_USERNAME[1:])
+addbname = 'https://t.me/DJ_ALOK_VC_BOT?startgroup=true'.format(Config.BOT_USERNAME[1:])
 
 @Client.on_message(filters.command(["start", "start@GroupMusicPlayBot"]) & filters.private & ~filters.channel)
 async def start(_, message: Message):
