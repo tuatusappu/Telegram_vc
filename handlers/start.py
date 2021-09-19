@@ -12,7 +12,7 @@ async def start(_, message: Message):
             [[
             InlineKeyboardButton("➕ Add To Your Group ➕", url=addbname)
             ],[
-            InlineKeyboardButton("💬 Group", url="https://t.me/BotMusics"),
+            InlineKeyboardButton("💬 Group", url="https://t.me/Florenza_support"),
             InlineKeyboardButton("Commands 🛠", url="https://telegra.ph/Music-Bot-05-07")
             ]]
         ),
@@ -25,7 +25,7 @@ async def gstart(_, message: Message):
         text="**Music Bot Is Online ✅**",
         reply_markup=InlineKeyboardMarkup(
             [[
-            InlineKeyboardButton(text="🎙️ Support Group 🎙️", url="https://t.me/MusicBotSupports")
+            InlineKeyboardButton(text="🎙️ Support Group 🎙️", url="https://t.me/Florenza_support")
             ]]
         )
     )
@@ -64,7 +64,7 @@ __× First Add Me To Your Group..
 • `/userbotleave` : __Assistant Leaves From The Group.__""",
         reply_markup=InlineKeyboardMarkup(
               [[
-              InlineKeyboardButton(text="🎙️ Support Group 🎙️", url="https://t.me/MusicBotSupports")
+              InlineKeyboardButton(text="🎙️ Support Group 🎙️", url="https://t.me/Florenza_support")
               ]]
           )
       )
